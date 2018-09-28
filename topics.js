@@ -6,5 +6,6 @@ javascript: (function(){
     var headline = pagetitle.split(" | ")[0];
   }
   var searchString = encodeURIComponent(headline);
-  var url = 'http://www.topics.nl/zoek/?query=' + searchString; window.open(url, '_blank');
+  var url = 'http://www.topics.nl/zoek/?query=' + searchString;
+  window.open(url, '_blank');
 })();
